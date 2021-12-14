@@ -12,3 +12,19 @@ function countBs(string) {
 };
 
 console.log(countBs("BBC"));
+
+
+/* Write a function that behaves like countBs but takes a second argument to indicate which character you want to count.
+*/
+function countChar(string, character) {
+  let numCounted = 0;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === character) {
+      numCounted += 1;
+    }
+  }
+  return numCounted;
+};
+
+console.log(countChar("kakkerlak", "k"));
+console.log(countChar("My name is katie and I really like apples.", "a"))
