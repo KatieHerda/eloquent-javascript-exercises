@@ -26,5 +26,5 @@ function countChar(string, character) {
   return numCounted;
 };
 
-console.log(countChar("kakkerlak", "k"));
-console.log(countChar("My name is katie and I really like apples.", "a"))
+console.log(countChar("abbraaacadabbrraa", "a"));
+console.log(countChar("My name is katie and I really like apples.", "l"))
