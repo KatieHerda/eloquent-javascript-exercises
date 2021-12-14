@@ -1,4 +1,4 @@
-
+// Write a program that creates a string that represents a 8x8 chess board.
 let board = "";
 let size = 8;
 
