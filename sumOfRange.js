@@ -7,7 +7,6 @@ const range = function(start, end) {
   }
   return rangeArr;
 }
-
 // console.log(range(1, 5))
 
 // Write a sum function that takes an array of numbers and returns the sum of these numbers.
