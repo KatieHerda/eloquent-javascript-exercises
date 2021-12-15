@@ -3,8 +3,9 @@
 const range = function(start, end) {
   let rangeArr = [];
   for (let i = start; i <= end; i++) {
-    console.log(i)
+    rangeArr.push(i)
   }
+  return rangeArr;
 }
 
-range(1, 5)
+console.log(range(1, 5))
