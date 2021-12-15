@@ -11,12 +11,15 @@ const range = function(start, end) {
 // console.log(range(1, 5))
 
 // Write a sum function that takes an array of numbers and returns the sum of these numbers.
+const arr = [1, 2, 3, 4, 5, 6, 7];
 
 const sumOfRange = function(arr) {
   let finalSum = 0;
-  for (let i = 0; i <= arr.length; i++) {
-  
+
+  for (const num of arr) {
+    finalSum += num;
   }
+  return finalSum;
 }
 
-console.log(sumOfRange([1, 2, 3, 4, 5]))
+console.log(sumOfRange(arr));
