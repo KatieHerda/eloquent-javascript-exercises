@@ -1,6 +1,6 @@
 // Write a function that takes an array as an argument and produces a new array that has the same elements in the inverse order.
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
 const reverseArray = function(arr) {
   let reversedArr = [];
@@ -11,10 +11,20 @@ const reverseArray = function(arr) {
   return reversedArr;
 }
 
-console.log(arr)
-console.log(reverseArray(arr));
-console.log(arr)
+// console.log(arr)
+// console.log(reverseArray(arr));
+// console.log(arr)
+
+const arr = [1, 2, 3, 4, 5, 6, 7];
 
 const reverseArrayInPlace = function(arr) {
-
+  // start at beginning of array, and finish when i is half the length.
+  // swapping first and last indices, then second and second last, etc.
+  for (let i = 0; i < Math.floor(arr.length / 2); i ++) {
+   
+  }
 }
+
+console.log(arr);
+console.log(reverseArrayInPlace(arr));
+console.log(arr);
