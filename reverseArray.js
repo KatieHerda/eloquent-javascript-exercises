@@ -23,7 +23,10 @@ const reverseArrayInPlace = function(arr) {
   for (let i = 0; i < Math.floor(arr.length / 2); i ++) {
     // set first element
     let elem = arr[i];
-  } 
+    // then set first element to equal the last
+    arr[i] = arr[arr.length - 1 - i];
+  }
+  return arr;
 }
 
 console.log(arr);
