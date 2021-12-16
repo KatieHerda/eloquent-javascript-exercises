@@ -11,8 +11,10 @@ const reverseArray = function(arr) {
   return reversedArr;
 }
 
-// console.log(reverseArray(arr));
+console.log(arr)
+console.log(reverseArray(arr));
+console.log(arr)
 
-const reverseArrayInPlace = function() {
+const reverseArrayInPlace = function(arr) {
 
 }
