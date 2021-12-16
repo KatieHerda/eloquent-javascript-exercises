@@ -17,6 +17,7 @@ const reverseArray = function(arr) {
 
 const arr = [1, 2, 3, 4, 5, 6];
 
+// Write a function that reverses an array in place vs creating a new one.
 const reverseArrayInPlace = function(arr) {
   // start at beginning of array, and finish when i is half the length.
   // swapping first and last indices, then second and second last, etc.
