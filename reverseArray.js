@@ -15,7 +15,7 @@ const reverseArray = function(arr) {
 // console.log(reverseArray(arr));
 // console.log(arr)
 
-const arr = [1, 2, 3, 4, 5, 6, 7];
+const arr = [1, 2, 3, 4, 5, 6];
 
 const reverseArrayInPlace = function(arr) {
   // start at beginning of array, and finish when i is half the length.
@@ -25,6 +25,8 @@ const reverseArrayInPlace = function(arr) {
     let elem = arr[i];
     // then set first element to equal the last
     arr[i] = arr[arr.length - 1 - i];
+    // set the last element to equal the first
+    arr[arr.length - 1 - i] = elem;
   }
   return arr;
 }
