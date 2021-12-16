@@ -21,8 +21,9 @@ const reverseArrayInPlace = function(arr) {
   // start at beginning of array, and finish when i is half the length.
   // swapping first and last indices, then second and second last, etc.
   for (let i = 0; i < Math.floor(arr.length / 2); i ++) {
-   
-  }
+    // set first element
+    let elem = arr[i];
+  } 
 }
 
 console.log(arr);
