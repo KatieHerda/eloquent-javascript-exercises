@@ -3,6 +3,8 @@
 const arr = [1, 2, 3, 4, 5];
 
 const reverseArray = function(arr) {
+  let reversedArr = [];
+  
   for (let i = arr.length; i > 0; i--) {
     console.log(i)
   }
